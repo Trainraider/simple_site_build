@@ -1,0 +1,22 @@
+{
+  "name": "simple-build-system",
+  "version": "1.0.0",
+  "description": "A simple build system for creating single-file websites by injecting content from other files.",
+  "main": "index.js",
+  "bin": {
+    "build": "./index.js"
+  },
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "Trainraider",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "csso": "^5.0.5",
+    "glob": "^10.2.7",
+    "html-minifier": "^4.0.0",
+    "markdown-it": "^13.0.1",
+    "uglify-js": "^3.17.4"
+  }
+}
